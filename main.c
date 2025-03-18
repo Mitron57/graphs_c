@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <vector.h>
-#include <arm/limits.h>
+#include <limits.h>
 
 struct vector* array_init(size_t size) {
     struct vector* array = malloc(sizeof(struct vector) * size);
